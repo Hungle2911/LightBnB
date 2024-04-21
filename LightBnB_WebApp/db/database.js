@@ -201,7 +201,6 @@ const addProperty = function(property) {
       if (!res.rows.length) {
         return (null);
       }
-      console.log(res.rows[0]);
       return res.rows[0];
     })
     .catch((err) => {
